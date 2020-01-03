@@ -1,4 +1,4 @@
-# RIP 
+# RIP (Routing Information Protocol)
 
 - A standardized Distance Vector protocol, designed for use on smaller networks.
 -	RIP sends out periodic routing updates (30 sec)
