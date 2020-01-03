@@ -17,10 +17,13 @@ Router A
 -	Router(config)# router rip
 -	Router(config-router)#network net_addr_neighbour_router
 -	Router(config-router)#network net_addr_neighbour_router
+
 Router B
 -	Router(config)# router rip
 -	Router(config-router)# network net_addr_neighbour_router
 -	Router(config-router)# network net_addr_neighbour_router
+
+------------------------------------------------------------------------------------------------------------
 
 
 # RIP Version 2 (Routing Information Protocol)
