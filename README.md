@@ -17,9 +17,9 @@ Hubs
 -	Data transfer to all the ports
 
 -	Hub types:
-	Active hub – Provides signal regeneration
-	Passive hub – No signal regeneration
-	Intelligent hub – Provides management of each port
+  - Active hub – Provides signal regeneration
+  - Passive hub – No signal regeneration
+  - Intelligent hub – Provides management of each port
 
 Bridges
 -	Layer 2 devices as works at Data Link Layer of the OSI model
@@ -44,11 +44,19 @@ Route types:
 # PROTOCOLS AT DIFFERENT LAYERS
 
 OSI Layers	Protocols
-Physical Layer	No protocols defined
-Data Link Layer	HDLC, SDLC 
-Network Layer	NetBEUI, IP, ICMP, IGMP, ARP, RARP, IPX
-Transport Layer	NetBEUI, TCP, UDP, SPX
-Session Layer	NetBIOS, SAP, SMTP, FTP, DNS, SNMP,
-Presentation Layer	NCP, RIP, NLSP, SMTP, FTP, DNS, SNMP, NFS
-Application Layer	SMTP, DNS, SNMP, NFS, TFTP 
+
+Physical Layer - No protocols defined
+
+Data Link Layer - HDLC, SDLC 
+
+Network Layer - NetBEUI, IP, ICMP, IGMP, ARP, RARP, IPX
+
+Transport Layer - NetBEUI, TCP, UDP, SPX
+
+Session Layer - NetBIOS, SAP, SMTP, FTP, DNS, SNMP
+
+Presentation Layer - NCP, RIP, NLSP, SMTP, FTP, DNS, SNMP, NFS
+
+Application Layer - SMTP, DNS, SNMP, NFS, TFTP
+
 
