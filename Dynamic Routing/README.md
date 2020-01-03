@@ -1,4 +1,6 @@
-RIP (Routing Information Protocol) is a standardized Distance Vector protocol, designed for use on smaller networks.
+# RIP (Routing Information Protocol) 
+
+- A standardized Distance Vector protocol, designed for use on smaller networks.
 -	RIP sends out periodic routing updates (30 sec)
 -	RIP sends out the full routing table every periodic update.
 -	RIP uses a form of distance as its metric hop-count 15 (max.)
@@ -9,7 +11,8 @@ RIP (Routing Information Protocol) is a standardized Distance Vector protocol, d
 -	RIP support IP and IPX routing
 -	RIP routes have an administrative distance of 120
 
-Commands
+# Commands
+
 Router A
 -	Router(config)# router rip
 -	Router(config-router)#network net_addr_neighbour_router
@@ -21,7 +24,7 @@ Router B
 -	Router(config-router)# network net_addr_neighbour_router
 
 
-RIP VERSION 2
+# RIP VERSION 2
 
 RIP is a standardized Distance Vector protocol, designed for use on smaller networks.
 -	RIP sends out periodic routing updates (30 sec)
@@ -34,8 +37,7 @@ RIP is a standardized Distance Vector protocol, designed for use on smaller netw
 -	RIP support IP and IPX routing
 -	RIP routes have an administrative distance of 120
 
-
-Commands
+# Commands
 
 Router A
 -	Router(config)# router rip
