@@ -18,14 +18,16 @@ VLAN membership can be configured one of two ways:
 -	In large switching environments, it can become difficult to maintain a consistent VLAN database across all switches on the network. VTP allows the VLAN database to be easily managed throughout the network.
 -	By default, VTP updates are sent out every 300 seconds.
 
-VTP Modes
+# VTP Modes
 
 Server
 
 –	 Only VTP servers can create, modify or delete entries in the VLAN database. Servers advertise their VLAN database to all other switches on the network. Server can only advertise VLANs 1-1005
 
 Client
+
 –	 VTP clients cannot make modifications to the VLAN database, A client will also forward an update from a server to other clients.
 
 Transparent
+
 –	 VTP transparent switches will not advertise or accept any VLAN database information from other switches (even a server).
